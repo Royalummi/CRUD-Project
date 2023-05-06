@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "name": "Ranjith",
+      "salary": "25000",
+      "company": "TCS",
+      "id": 2
+    },
+    {
+      "name": "Pramath",
+      "salary": "5000000000",
+      "company": "pramathinfotech",
+      "id": 3
+    },
+    {
+      "name": "Royal",
+      "salary": "40000",
+      "company": "TCS",
+      "id": 4
+    }
+  ]
+}

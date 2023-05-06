@@ -1,0 +1,115 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#nav{
+  width: 100%;
+  height: 72.5px;
+  border-bottom: 1px solid gainsboro;
+  display: flex;
+  justify-content: center;
+}
+#nav>article
+{
+  height: 72.5px;
+  width: 65%;
+  display: flex;
+}
+#nav>article>.logo
+{
+  height: 72.5px;
+  width: 30%;
+  /* background-color:blueviolet; */
+}
+#nav>article>.menu
+{
+  height: 72.5px;
+  width: 40%;
+  /* background-color: cornflowerblue; */
+}
+#nav>article>.btn
+{
+  height: 72.5px;
+  width: 30%;
+  /* background-color:violet; */
+}
+
+#logoblock{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#logoblock>p
+{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(45,136,226);
+}
+#logoblock>span
+{
+  font-size: 30px;
+  /* rotate: 90 10px 20px ; */
+}
+#menublock
+{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#menublock>div>a
+{
+  text-decoration: none;
+  color: rgb(115,121,128);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+#menublock>div>a:hover
+{
+  color: black;
+}
+#menublock>div>a>select
+{
+  border: 0;
+  position: relative;
+  right: 23px;
+}
+#btnblock
+{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+#btnblock>button
+{
+  background-color: rgb(23,124,226);
+  border: 0 rgb(23,124,226);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  height: 32px;
+  width: 131px;
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  right: 13px;
+}
+#btnblock>button>svg
+{
+  height: 20px;
+  width: 20px;
+}
+#btnblock>button>p
+{
+  position: relative;
+  left: 6px;
+}
